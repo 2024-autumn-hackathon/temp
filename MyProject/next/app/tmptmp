@@ -1,0 +1,68 @@
+import React from "react";
+
+const MainMonitorFrame = (children) => {
+  console.log(children);
+  return (
+  <svg
+    width={976}
+    height={685}
+    viewBox="0 0 976 685"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      width={976}
+      height={685}
+      transform="matrix(1 0 0 1 0 0)"
+      fill="none"
+    />
+    <rect
+      width={941}
+      height={599}
+      rx={80}
+      transform="matrix(1 0 0 1 16 18)"
+      fill="#88FBFF"
+    />
+    <rect
+      width={600}
+      height={500}
+      rx={50}
+      transform="matrix(1 0 0 1 40 70)"
+      fill="#C3D5D6"
+    />
+    <foreignObject x="40" y="70" width="600" height="500">
+      <div
+        style={{
+          "background":"blue",
+          "width": "100%",
+          "height": "100%"
+        }}
+      >
+        {children.main}
+      </div>
+    </foreignObject>
+    <rect
+      width={270}
+      height={500}
+      rx={40}
+      transform="matrix(1 0 0 1 660 70)"
+      fill="#C3D5D6"
+    />
+    <path
+      d="M482 617L238.36 646.778C223.311 648.617 212 661.396 212 676.557V680H482H752V676.557C752 661.396 740.689 648.617 725.64 646.778L482 617Z"
+      fill="#85F2C6"
+    />
+    <circle cx={889} cy={595} r={14.5} fill="#88FBFF" stroke="white" />
+    <rect
+      x={886.5}
+      y={575}
+      width={5}
+      height={19}
+      rx={2.5}
+      fill="white"
+      stroke="#88FBFF"
+    />
+  </svg>
+  )
+};
+export default MainMonitorFrame;

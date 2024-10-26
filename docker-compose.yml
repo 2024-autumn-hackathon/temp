@@ -1,0 +1,11 @@
+services:
+  next:
+    container_name: next
+    build:
+      dockerfile: Docker/next/Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./MyProject/next:/usr/src/app
+    # command: sleep infinity
+    command: /bin/sh -c "cp -r /temp/* /usr/src/app/ && cd /usr/src/app && npm run dev"

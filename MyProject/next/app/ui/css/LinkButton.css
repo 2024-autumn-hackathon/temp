@@ -1,0 +1,11 @@
+.link-button {
+  display: block;
+  width: 300px;
+  height: 40px;
+  background: green;
+  border-radius: 30px;
+  text-align: center;
+  text-decoration: none;
+  background: #ff9519;
+  line-height: 2;
+}

@@ -1,0 +1,11 @@
+.click-button {
+  width: 200px;
+  height: 60px;
+  background: #ff9519;
+}
+
+.logout {
+  height: 40px;
+  width: 40%;
+  border-radius: 30px;
+}

@@ -1,0 +1,28 @@
+.image-upload-container {
+  display: flex;
+  border-radius: 30px;
+  overflow: hidden;
+  width: 200px;
+  background: yellow;
+  position: relative;
+}
+
+.image-upload-button {
+  width: 50%;
+  opacity: 0;
+  z-index: 1;
+  border-radius: 30px 0 0 30px;
+}
+
+.image-upload-submit {
+  background: #ff9519;
+  width: 50%;
+  font-size: large;
+}
+
+.navi {
+  position: absolute;
+  font-size: large;
+  top: 20%;
+  left: 8%;
+}
